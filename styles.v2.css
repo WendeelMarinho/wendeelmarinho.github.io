@@ -44,6 +44,8 @@ a{color:var(--accent);text-decoration:none}
 /* Sections */
 .section{padding:32px 0}
 h2{font-size:20px;margin:0 0 18px}
+h3{font-size:16px;margin:16px 0 10px;color:var(--text);font-weight:600}
+h4{font-size:14px;margin:8px 0 6px;color:var(--text);font-weight:600}
 .card{background:var(--surface);padding:18px;border-radius:12px}
 .card.split{display:grid;grid-template-columns:1fr 1fr;gap:20px}
 
@@ -51,6 +53,8 @@ h2{font-size:20px;margin:0 0 18px}
 .timeline li{display:grid;grid-template-columns:140px 1fr;gap:18px;padding:14px;border-radius:10px;background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent)}
 .timeline .time{color:var(--muted);font-size:13px}
 .timeline .title{font-weight:600}
+.timeline .location{color:var(--muted);font-size:13px;margin-bottom:8px}
+.timeline ul{margin:10px 0 0;padding-left:20px}
 
 .projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
 .project-card{background:var(--surface);padding:16px;border-radius:12px}
